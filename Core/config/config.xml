@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <!-- ======================================================================================
+Configfile:    config.xml
+Author:        Michael Kear, AFP Webworks 
+Client:        Bluegrass Today Top 20 Public Site
+Date:          2/Jan/2023, 12:05PM ======================================================================================
+-->
+
+    <!-- ======================================================================================
+   GLOBAL Variables ======================================================================================
+-->
+    <globals>
+        <PageIncrement>7</PageIncrement>
+        <AddNewContentAt>Bottom</AddNewContentAt>
+        <AddNewPageAt>Top</AddNewPageAt>
+        <hometimezone>Australia/Sydney</hometimezone>
+        <MonthsBeforeArchive>2</MonthsBeforeArchive>
+        <settingsTablename>BT20Settings</settingsTablename>
+    </globals>
+
+    <!-- ======================================================================================
+   DEVELOPMENT ENVIRONMENT Variables ======================================================================================
+-->
+    <development>
+        <approotABS>D:\Sites\Mysites\BT20\BT20</approotABS>
+        <cmsrootABS>D:\Sites\Mysites\BT20\BT20CMS</cmsrootABS>
+        <approotURL>http://127.0.0.1:59628/</approotURL>
+        <cmsrootURL>http://127.0.0.1:59852/</cmsrootURL>
+        <sitename>BT20 Development</sitename>
+        <dsn>atalkingdog2018</dsn>
+        <bansdsn>AFPWebworksNet2020</bansdsn>
+    </development>
+
+    <!-- ======================================================================================
+   PRODUCTION ENVIRONMENT Variables ======================================================================================
+-->
+    <production>
+        <approotABS>D:\Sites\Mysites\BT20\BT20</approotABS>
+        <cmsrootABS>D:\Sites\Mysites\BT20\BT20CMS</cmsrootABS>
+        <approotURL>http://127.0.0.1:59628/</approotURL>
+        <cmsrootURL>http://127.0.0.1:59852/</cmsrootURL>
+        <sitename>BT20 Development</sitename>
+        <dsn>atalkingdog2018</dsn>
+        <bansdsn>AFPWebworksNet2020</bansdsn>
+    </production>
+
+</settings>
